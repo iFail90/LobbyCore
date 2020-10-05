@@ -11,7 +11,7 @@ class Main extends PB implements LT {
 public static $instancia;
 
 public function onLoad(){
-$this->getLogget()->info("Loading LobbyCore..");
+$this->getLogger()->info("Loading LobbyCore..");
 }
 
 public function onEnable(){
